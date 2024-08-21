@@ -116,7 +116,6 @@ function Main({ children }) {
   return <main className="main">{children}</main>;
 }
 
-//<-----LEFT LIST--->
 function Box({ children }) {
   const [isOpen, setIsOpen] = useState(true);
 
@@ -154,8 +153,6 @@ function Movie({ movie }) {
     </li>
   );
 }
-
-//<-----RIGHT LIST--->
 
 //REFACTURED TO A REUSABLE BOX
 // function WatchedBox() {
@@ -242,4 +239,5 @@ function WatchedMovie({ movie }) {
     </li>
   );
 }
+
 //<-------------------END OF MAIN SECTION------------------------>
